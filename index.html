@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <title>APOD | Image Search </title>
+    </head>
+
+    <body>
+        
+        <header class="header">
+            
+            <a href="https://apod.nasa.gov/apod/astropix.html"><img id="logo" src="./logo_apod_nasa-removebg-preview.png" alt="NASA Apod Oficial logtype"></a>
+            
+        </header>
+        
+
+        <h2 class="text">Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</h2>
+        
+        <div class="nasa">
+            <label class="text" for="date"><h3>Select a Date:</h3></label>
+            <input type="date"  id="date" name="data">
+            <button id="submit" onclick="search()">Search</button>
+        </div>
+
+        <div class="container">
+            <div class="img" ></div>
+            <img id="img">
+            <h1 id="title"></h1>
+            <p id="explanation"></p> <br>
+            <p id="copyright"></p>
+        </div>
+
+        <footer><p class="endPage">&copy; Desenvolvido por Emmanuel Galli - T13 Resilia</p></footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="apod.js"></script>
+    </body>
+
+</html>
+
