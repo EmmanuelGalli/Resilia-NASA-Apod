@@ -1,1 +1,4 @@
-# Resilia-NASA-Apod
+# Resilia Módulo 02 - Semana 02 | Projeto de sprint: APOD  
+### A Nasa disponibiliza uma série de API's que fornecem acesso aos seus projetos e sistemas. A "Astronomy Picture of the Day" (APOD) é uma API que fornece uma foto ou vídeo, diariamente, para que as pessoas consigam descobrir um pouco mais sobre o espaço. Neste projeto, utilizando conhecimentos de HTML, CSS, JavaScript e jQuery, o objetivo é desenvolver uma aplicação capaz de realizar uma requisição para esta API com base em uma data específica e, a partir disso, exibir na página a imagem ou vídeo, com a descrição obtida.
+### A aplicação desenvolvida deve ser capaz de receber uma data como entrada do usuário a partir de um formulário. Com a data selecionada, ao clicar no botão de envio, uma requisição deve ser enviada à API da APOD para que seja obtida a foto ou vídeo referente ao dia escolhido. De posse dessa informação, a página deve ser manipulada para que os dados retornados sejam devidamente exibidos. 
+![readmeimage](https://user-images.githubusercontent.com/95878600/151712169-078b463d-96e0-470e-8ecd-47fcd7f10ecd.png)
